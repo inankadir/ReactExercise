@@ -1,17 +1,24 @@
-import Header from './components/Header';
+import Siderbar from './components/Siderbar';
 import Main from './components/Main';
+import User from './components/User';
+import AddNewTodo from './components/AddNewTodo';
+import Calender from './components/Calendar';
+import Projects from './components/Projects';
+import Todos from './components/Todos';
+import EditTodo from './components/EditTodo';
 
 function App() {
   return (
     <div className="App">
-      <Header>
+      <Siderbar>
         <User />
         <AddNewTodo />
         <Calender />
         <Projects />
-      </Header>
+      </Siderbar>
       <Main>
-        <h2>Hello</h2>
+        <Todos />
+        <EditTodo />
       </Main>
     </div>
   );
