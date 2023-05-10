@@ -1,4 +1,5 @@
-import Siderbar from './components/Siderbar';
+import './App.css'
+import Siderbar from './components/Sidebar';
 import Main from './components/Main';
 import User from './components/User';
 import AddNewTodo from './components/AddNewTodo';
